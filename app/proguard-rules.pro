@@ -1,0 +1,2 @@
+-keep class com.tagflow.app.data.** { *; }
+-keep class com.tagflow.app.model.** { *; }
