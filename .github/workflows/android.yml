@@ -70,7 +70,7 @@ jobs:
       - name: Rename APK
         run: mv dist/*.apk "dist/TagFlow-${{ github.ref_name }}.apk"
 
-      - uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@v3
         with:
           files: dist/*.apk
           generate_release_notes: true
